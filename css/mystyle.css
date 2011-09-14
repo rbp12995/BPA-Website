@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#FFC;
+}
+/* Navigation Bar */
+ul {
+	padding: 0;
+	width:1000px;
+	background:#060;
+	border: 3px solid #050;
+	border-left:none;
+	border-right:none;
+	height:30px;
+	
+}
+ul li {
+display: inline;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+color:#D6B041;
+}
+ul li a {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-weight:bolder;
+font-size:11px;
+text-decoration: none;
+padding-top:5px;
+padding-bottom:5px;
+padding-right: 20px;
+padding-left: 20px;
+-moz-border-bottom-left-radius: 5px;
+border-bottom-left-radius: 5px;
+-moz-border-bottom-right-radius: 5px;
+border-bottom-right-radius: 5px;
+margin-left:20px;
+margin-right:20px;
+background-color: #D6B041;
+color: #060;
+}
+ul li a:hover {
+border-bottom: 6px solid #960;
+margin-top:0px;
+padding-bottom:7px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-moz-border-bottom-left-radius: 0px;
+border-bottom-left-radius: 0px;
+-moz-border-bottom-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+a.hover {
+border-bottom: 6px solid #960;
+margin-top:0px;
+padding-bottom:7px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-moz-border-bottom-left-radius: 0px;
+border-bottom-left-radius: 0px;
+-moz-border-bottom-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+/* Text Styling */
+/* h1 = News Heading */
+/* h2 = News Subheading */
+/* h3 = OTHER ( Centered Bold ) */
+
+h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	font-size:30px;
+	color:#060;
+	padding:2px;
+	margin:0px;
+}
+h2 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bolder;
+	font-size:15px;
+	color:#C90;
+	padding:0px;
+	margin:0px;
+	padding-bottom: 10px;
+	border-bottom:3px dotted #063;
+}
+h3 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:24Spx;
+	text-align:center;
+	text-transform:uppercase;
+	color:#333;
+	background:#FFC;
+	padding:0px;
+	margin:0px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+h4 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:700;
+	font-size:18px;
+	text-align:right;
+	color:#000;
+	padding:0px;
+	padding-right:30px;
+	margin:0px;
+	margin-top:11px;
+	width: 200px;
+
+}
+
+#personal input{
+	height:20px;
+	width:300px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:100;
+	font-size:18px;
+	color:#777;
+	border:2px solid #999;
+	margin-top:21px;
+}
+#personal input:focus {
+	border:2px solid #060;
+	color:#333;
+}
+#personal select{
+	height:30px;
+	width:305px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:100;
+	font-size:18px;
+	color:#777;
+	border:2px solid #999;
+	margin-top:21px;
+}
+#personal select:focus {
+	border:2px solid #060;
+	color:#333;
+}
+#personalinfo {
+	width:550px;
+	border:2px solid #F93;
+	padding-top:10px;
+	margin-top:20px;
+	position:relative;
+} 
+#events {
+	width:395px;
+	float:right;
+	border:2px solid #F93;
+	padding:10px;
+	margin-top:20px;
+	margin-left:15px;
+	position:relative;
+}
+#events select{
+	height:30px;
+	width:395px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:100;
+	font-size:18px;
+	color:#777;
+	border:2px solid #999;
+	margin:0px;
+}
+#events select:focus {
+	border:2px solid #060;
+	color:#333;
+}
+#events h4 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:700;
+	font-size:18px;
+	text-align:left;
+	color:#000;
+	padding:0px;
+	padding-right:15px;
+	margin:0px;
+	margin-bottom:5px;
+	margin-top:8px;
+	width: 180px;
+
+}
+#schedule {
+	width:965px;
+	float:left;
+	border:2px solid #F93;
+	padding:10px;
+	margin-top:20px;
+	margin-left:5px;
+	position:relative;
+}
+#schedule h4 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:700;
+	font-size:18px;
+	text-align:right;
+	color:#000;
+	padding:0px;
+	padding-right:15px;
+	margin:0px;
+	margin-bottom:7px;
+	margin-top:15px;
+	width: 100px;
+
+}
+#schedule input.course{
+	height:20px;
+	width:280px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:100;
+	font-size:18px;
+	color:#777;
+	border:2px solid #999;
+	margin-top:10px;
+}
+#schedule input.course:focus {
+	border:2px solid #060;
+	color:#333;
+}
+#schedule input.teacher{
+	height:20px;
+	width:400px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:100;
+	font-size:18px;
+	color:#777;
+	border:2px solid #999;
+	margin-top:10px;
+}
+#schedule input.teacher:focus {
+	border:2px solid #060;
+	color:#333;
+}
+#schedule input.room{
+	height:20px;
+	width:100px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:100;
+	font-size:18px;
+	color:#777;
+	border:2px solid #999;
+	margin-top:10px;
+}
+#schedule input.room:focus {
+	border:2px solid #060;
+	color:#333;
+}
+#schedule select{
+	height:26px;
+	width:100px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:100;
+	font-size:18px;
+	color:#777;
+	border:2px solid #999;
+	margin:0px;
+}
+#schedule select:focus {
+	border:2px solid #060;
+	color:#333;
+}
+#schedule h5 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:700;
+	font-size:18px;
+	text-align:right;
+	color:#000;
+	padding:0px;
+	padding-right:15px;
+	margin:0px;
+	margin-bottom:7px;
+	margin-top:15px;
+	width: 380px;
+
+}
+#submit {
+	width:100px;
+	float:right;
+	border:3px solid #060;
+	background:#F93;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#060;
+	margin:15px;
+}
+#submit:hover {
+	background:#060;
+	color:#F90;
+}
+#schedule input.business{
+	height:20px;
+	width:400px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:100;
+	font-size:18px;
+	color:#777;
+	border:2px solid #999;
+	margin:0px;
+}
+#schedule input.business:focus {
+	border:2px solid #060;
+	color:#333;
+}
