@@ -1,6 +1,8 @@
 <?
 class Register extends CI_Controller {
+
   public function index(){
+    $this->load->library('form_validation');
     $options = array();
     // Assuming that no one is signed in yet.
     $options['signedin'] = FALSE;
@@ -13,6 +15,12 @@ class Register extends CI_Controller {
   }
   
   public function submit(){
+   $this->load->library('form_validation');
+   if ($this->form_validation->run() == FALSE){
+    index();
+   }
+   
+
     
   }
 }
