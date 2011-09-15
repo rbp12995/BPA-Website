@@ -111,32 +111,32 @@
 
 <h4> 1st Choice: </h4> 
 <select>
-<? foreach($events as $id => $event): ?>
-  <option value="<?=$id?>"> <?=$event?> </option>
+<? foreach($events as $event): ?>
+  <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 2nd Choice: </h4> 
 <select>
-<? foreach($events as $id => $event): ?>
-  <option value="<?=$id?>"> <?=$event?> </option>
+<? foreach($events as $event): ?>
+  <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 3rd Choice: </h4> 
 <select>
-<? foreach($events as $id => $event): ?>
-  <option value="<?=$id?>"> <?=$event?> </option>
+<? foreach($events as $event): ?>
+  <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 4th Choice: </h4> 
 <select>
-<? foreach($events as $id => $event): ?>
-  <option value="<?=$id?>"> <?=$event?> </option>
+<? foreach($events as $event): ?>
+  <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 5th Choice: </h4> 
 <select>
-<? foreach($events as $id => $event): ?>
-  <option value="<?=$id?>"> <?=$event?> </option>
+<? foreach($events as $event): ?>
+  <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <table>
@@ -144,16 +144,16 @@
 <td>
 <h4> Area of Interest #1: </h4> 
 <select style="width:180px;">
-<? foreach($events as $id => $event): ?>
-  <option value="<?=$id?>"> <?=$event?> </option>
+<? foreach($events as $event): ?>
+  <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 </td>
 <td>
 <h4> Area of Interest #2: </h4> 
 <select style="width:180px;">
-<? foreach($events as $id => $event): ?>
-  <option value="<?=$id?>"> <?=$event?> </option>
+<? foreach($events as $event): ?>
+  <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 </td>
@@ -164,16 +164,16 @@
 <td>
 <h4> Open Event #1: </h4> 
 <select style="width:180px;">
-<? foreach($opens as $id => $event): ?>
-  <option value="<?=$id?>"> <?=$event?> </option>
+<? foreach($opens as $event): ?>
+  <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 </td>
 <td>
 <h4> Open Event #2: </h4> 
 <select style="width:180px;">
-<? foreach($opens as $id => $event): ?>
-  <option value="<?=$id?>"> <?=$event?> </option>
+<? foreach($opens as $event): ?>
+  <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 </td>
