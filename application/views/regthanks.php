@@ -11,25 +11,25 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Huron BPA - Home</title>
-<link rel="stylesheet" type="text/css" href="mystyle.css" />
+<link rel="stylesheet" type="text/css" href="http://huronbpa.org/css/mystyle.css" />
 </head>
 <body>
-<div style="width:1000px; height:200px; position:relative; margin-left: auto;
-	margin-right: auto; padding:17px; border-right:6px solid #063; border-left:6px solid #063; border-bottom:6px solid #063;" > 
+<div style="width:1000px; height:2000px; position:relative; margin-left: auto;
+	margin-right: auto; padding:17px; border-right:6px solid #063; border-left:6px solid #063;" > 
 
 <!-- LOGO -->
-<img src="logo.png" width="200" />
+<img src="http://huronbpa.org/images/logo.png" width="200" />
 
 <!-- Navigation Bar -->
 <div style="width:1000px;">
 <ul id="button">
 <li><a href="#">Home</a></li>
 <li><a href="#">About</a></li>
-<li><a href="#">Events</a></li>
+<li><a href="http://huronbpa.org/events">Events</a></li>
 <li><a href="#">Commitees</a></li>
 <li>
 <? if(!$signedin): ?>
-	<a class="hover" href="#">Register</a>
+	<a class="hover" href="http://huronbpa.org/register">Register</a>
 <? else: ?>
 	Logged in as: <a href="http://huronbpa.org/user/<?=$id?>"> <?=$name?> </a>
 <? endif; ?>

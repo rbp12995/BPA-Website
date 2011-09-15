@@ -28,11 +28,11 @@
 <ul id="button">
 <li><a href="#">Home</a></li>
 <li><a href="#">About</a></li>
-<li><a href="#">Events</a></li>
+<li><a href="http://huronbpa.org/events">Events</a></li>
 <li><a href="#">Commitees</a></li>
 <li>
 <? if(!$signedin): ?>
-	<a class="hover" href="#">Register</a>
+	<a class="hover" href="http://huronbpa.org/register">Register</a>
 <? else: ?>
 	Logged in as: <a href="http://huronbpa.org/user/<?=$id?>"> <?=$name?> </a>
 <? endif; ?>
@@ -42,6 +42,7 @@
 
 <h1> Register Now! </h1>
 <h2> For the 2011-2012 Huron Chapter...</h2>
+<form target="http://huronbpa.org/register/submit" method="POST">
 <p><?
 	// Errors with form validation will be displayed here.
 	echo validation_errors();
@@ -63,7 +64,7 @@
 </tr>
 <tr>
 <td><h4>Gender:</h4></td>
-<td><select>
+<td><select name="gender">
   <option value="M">Male</option>
   <option value="F">Female</option>
 </select></td>
@@ -86,7 +87,7 @@
 </tr>
 <tr>
 <td><h4>Grade:</h4></td>
-<td><select>
+<td><select name="grade">
   <option value="9">Freshman</option>
   <option value="10">Sophomore</option>
   <option value="11">Junior</option>
@@ -95,7 +96,7 @@
 </tr>
 <tr>
 <td><h4>Are you a returning member?</h4></td>
-<td><select>
+<td><select name="returning">
   <option value="yes">Yes</option>
   <option value="no">No</option>
 </select></td>
@@ -240,7 +241,7 @@
 <table>
 <tr>
 <td><h5>Have you ever taken a Huron business class? If so, please list them.</h5></td>
-<td><select style="float:right;">
+<td><select style="float:right;" name="bcpast">
   <option value="yes">Yes</option>
   <option value="no">No</option>
 </select></td>
@@ -248,7 +249,7 @@
 </tr>
 <tr>
 <td><h5>Are you currently enrolled in a Huron business class for the 2011-12 school year? If so, please list them.</h5></td>
-<td><select style="float:right;">
+<td><select style="float:right;" name="bcnow">
   <option value="yes">Yes</option>
   <option value="no">No</option>
 </select></td>
@@ -258,6 +259,6 @@
 </div>
 <input id="submit" type="submit" value="Submit" />
 </div>
-
+</form>
 </body>
 </html>
