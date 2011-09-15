@@ -5,6 +5,6 @@ public function index(){
 	$options['signedin'] = FALSE;
 	$events = $this->db->get('events')->result_array();
 	$options['events'] = $events;
-	$this->load->view('events');
+	$this->load->view('events', $options);
 }
 }
