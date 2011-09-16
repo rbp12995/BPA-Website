@@ -65,6 +65,7 @@
 <tr>
 <td><h4>Gender:</h4></td>
 <td><select name="gender">
+<option value=""></option>
   <option value="M">Male</option>
   <option value="F">Female</option>
 </select></td>
@@ -97,6 +98,7 @@
 <tr>
 <td><h4>Are you a returning member?</h4></td>
 <td><select name="returning">
+<option value=""></option>
   <option value="yes">Yes</option>
   <option value="no">No</option>
 </select></td>
@@ -249,6 +251,7 @@
 <tr>
 <td><h5>Have you ever taken a Huron business class? If so, please list them.</h5></td>
 <td><select style="float:right;" name="bcpast">
+<option value=""></option>
   <option value="yes">Yes</option>
   <option value="no">No</option>
 </select></td>
@@ -257,6 +260,7 @@
 <tr>
 <td><h5>Are you currently enrolled in a Huron business class for the 2011-12 school year? If so, please list them.</h5></td>
 <td><select style="float:right;" name="bcnow">
+<option value=""></option>
   <option value="yes">Yes</option>
   <option value="no">No</option>
 </select></td>
