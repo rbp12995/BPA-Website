@@ -42,7 +42,7 @@
 
 <h1> Register Now! </h1>
 <h2> For the 2011-2012 Huron Chapter...</h2>
-<form target="http://huronbpa.org/register/submit" method="POST">
+<form action="http://huronbpa.org/register/submit" method="POST">
 <p><?
 	// Errors with form validation will be displayed here.
 	echo validation_errors();
