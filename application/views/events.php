@@ -39,9 +39,10 @@
 </div>
 <select>
   <option value="all">All Events</option>
-  <option value="IT">Information Technology</option>
-  <option value="PP">Junior</option>
-  <option value="12">Senior</option>
+  <option value="Financial Services">Financial Services</option>
+  <option value="Administrative Support">Administrative Support</option>
+  <option value="Information Technology">Information Technology</option>
+  <option value="Management/Marketing/Human Resources">Management/Marketing/Human Resources</option>
 </select>
 
 <? foreach($events as $event): ?>
