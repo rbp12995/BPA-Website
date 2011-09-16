@@ -164,7 +164,7 @@ h4 {
 	border:2px solid #999;
 	margin:0px;
 }
-#events select:focus {
+select:focus {
 	border:2px solid #060;
 	color:#333;
 }
