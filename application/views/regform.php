@@ -112,30 +112,35 @@
 
 <h4> 1st Choice: </h4> 
 <select name='event1'>
+  <option value=""></option>
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 2nd Choice: </h4> 
 <select name='event2'>
+  <option value=""></option>
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 3rd Choice: </h4> 
 <select name='event3'>
+<option value=""></option>
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 4th Choice: </h4> 
 <select name='event4'>
+<option value=""></option>
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 5th Choice: </h4> 
 <select name='event5'>
+<option value=""></option>
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
@@ -145,17 +150,19 @@
 <td>
 <h4> Area of Interest #1: </h4> 
 <select name='area1' style="width:180px;">
-<? foreach($events as $event): ?>
-  <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
-<? endforeach; ?>
+  <option value="Financial Services">Financial Services</option>
+  <option value="Administrative Support">Administrative Support</option>
+  <option value="Information Technology">Information Technology</option>
+  <option value="Management/Marketing/Human Resources">Management/Marketing/Human Resources</option>
 </select><br/>
 </td>
 <td>
 <h4> Area of Interest #2: </h4> 
 <select name='area2' style="width:180px;">
-<? foreach($events as $event): ?>
-  <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
-<? endforeach; ?>
+  <option value="Financial Services">Financial Services</option>
+  <option value="Administrative Support">Administrative Support</option>
+  <option value="Information Technology">Information Technology</option>
+  <option value="Management/Marketing/Human Resources">Management/Marketing/Human Resources</option>
 </select><br/>
 </td>
 </tr>
