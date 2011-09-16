@@ -164,7 +164,7 @@ h4 {
 	border:2px solid #999;
 	margin:0px;
 }
-select:focus {
+#events select:focus {
 	border:2px solid #060;
 	color:#333;
 }
@@ -301,6 +301,20 @@ select:focus {
 	margin:0px;
 }
 #schedule input.business:focus {
+	border:2px solid #060;
+	color:#333;
+}
+select{
+	height:30px;
+	width:395px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:100;
+	font-size:18px;
+	color:#777;
+	border:2px solid #999;
+	margin:0px;
+}
+select:focus {
 	border:2px solid #060;
 	color:#333;
 }
