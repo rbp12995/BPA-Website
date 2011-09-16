@@ -111,31 +111,31 @@
 <h3 style="position:absolute; z-index:1; left: 110px; top: -10px;">Competitive Events</h3>
 
 <h4> 1st Choice: </h4> 
-<select>
+<select name='event1'>
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 2nd Choice: </h4> 
-<select>
+<select name='event2'>
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 3rd Choice: </h4> 
-<select>
+<select name='event3'>
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 4th Choice: </h4> 
-<select>
+<select name='event4'>
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
 </select><br/>
 <h4> 5th Choice: </h4> 
-<select>
+<select name='event5'>
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
@@ -144,7 +144,7 @@
 <tr>
 <td>
 <h4> Area of Interest #1: </h4> 
-<select style="width:180px;">
+<select name='area1' style="width:180px;">
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
@@ -152,7 +152,7 @@
 </td>
 <td>
 <h4> Area of Interest #2: </h4> 
-<select style="width:180px;">
+<select name='area2' style="width:180px;">
 <? foreach($events as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
@@ -164,7 +164,7 @@
 <tr>
 <td>
 <h4> Open Event #1: </h4> 
-<select style="width:180px;">
+<select name='open1' style="width:180px;">
 <? foreach($opens as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
@@ -172,7 +172,7 @@
 </td>
 <td>
 <h4> Open Event #2: </h4> 
-<select style="width:180px;">
+<select name='open2' style="width:180px;">
 <? foreach($opens as $event): ?>
   <option value="<?=$event['id']?>"> <?=$event['name']?> </option>
 <? endforeach; ?>
