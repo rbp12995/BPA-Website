@@ -28,17 +28,14 @@
 </li>
 </ul>
 </div>
-<select>
-  <option value="all">All Events</option>
-  <option value="IT">Information Technology</option>
-  <option value="PP">Junior</option>
-  <option value="12">Senior</option>
-</select>
-
-  <h1 style="font-size:22px;"> Mass Meeting: Friday Sept. 16th  </h1>
+<h1 style="font-size:22px;"> Mass Meeting: Friday Sept. 16th  </h1>
   <h2>Come to BPA's first mass meeting of the 2011-12 school year! We will be going important information and talking about what BPA is. The meeting will be held in room 4201 7th and 8th Hour.</h2>
 
+ <h1 style="font-size:22px;"> Commitees! </h1>
+  <h2>This year, returning members are required to join a commitee. The three commitees are Fundraising, Sponsorship and Community Service. Help do your part for BPA! And new members feel free to join and help out too!</h2>
 
+ <h1 style="font-size:22px;"> Regional Leadership Conference</h1>
+  <h2>Mark your calendars! Because this year the RLC is on Jan. 6th, 2012 which is BEFORE winter-break ends. </h2>
 </div>
 
 </body>
