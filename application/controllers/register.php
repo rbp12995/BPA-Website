@@ -118,8 +118,8 @@ class Register extends CI_Controller {
      'homePhone'=> $_POST["homeph"],
      'grade'    => $_POST["grade"],
      'returning'=> ($_POST['returning'] == 'yes'),
-     'businessNow'=> $_POST['businessNow'],
-     'businessPast'=> $_POST['businessPast']
+     'businessNow'=> $_POST['businessnow'],
+     'businessPast'=> $_POST['businesspast']
      );
     $firstLast = $_POST["firstname"] . $_POST["lastname"];
     $this->db->insert('members',$member);
@@ -164,7 +164,7 @@ class Register extends CI_Controller {
     
     // And we're done! ^.^
     $this->load->helper('url');
-    $this->redirect('thanks');
+    $this->url->redirect('thanks');
    }
    
 
