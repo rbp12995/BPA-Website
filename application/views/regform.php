@@ -26,7 +26,7 @@
 <!-- Navigation Bar -->
 <div style="width:1000px;">
 <ul id="button">
-<li><a href="#">Home</a></li>
+<li><a href="http://huronbpa.org/home">Home</a></li>
 <li><a href="#">About</a></li>
 <li><a href="http://huronbpa.org/events">Events</a></li>
 <li><a href="#">Commitees</a></li>
