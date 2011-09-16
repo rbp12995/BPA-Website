@@ -26,11 +26,11 @@
 <ul id="button">
 <li><a href="#">Home</a></li>
 <li><a href="#">About</a></li>
-<li><a href="http://huronbpa.org/events">Events</a></li>
+<li><a class="hover" href="http://huronbpa.org/events">Events</a></li>
 <li><a href="#">Commitees</a></li>
 <li>
 <? if(!$signedin): ?>
-	<a class="hover" href="http://huronbpa.org/register">Register</a>
+	<a href="http://huronbpa.org/register">Register</a>
 <? else: ?>
 	Logged in as: <a href="http://huronbpa.org/user/<?=$id?>"> <?=$name?> </a>
 <? endif; ?>
