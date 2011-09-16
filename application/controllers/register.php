@@ -164,7 +164,7 @@ class Register extends CI_Controller {
     
     // And we're done! ^.^
     $this->load->helper('url');
-    $this->url->redirect('thanks');
+    redirect('thanks');
    }
    
 
