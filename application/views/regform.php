@@ -104,6 +104,13 @@
 </select></td>
 </tr>
 </table>
+<h4 style="width:550px; text-align:left; margin-left:20px;"> Are you in any of these groups?<br/> (We need this to notify you in case of any schedule conflicts) <br/>Check all that apply: </h4> <h4 style="text-align:left; margin-left:200px; margin-bottom:20px;">
+<input style="margin-bottom:10px;" type="checkbox" name="vehicle" value="Bike" />Band<br />
+<input style="margin-bottom:10px;" type="checkbox" name="vehicle" value="Bike" />Orchestra<br />
+<input style="margin-bottom:10px;" type="checkbox" name="vehicle" value="Bike" />Choir<br />
+<input style="margin-bottom:10px;" type="checkbox" name="vehicle" value="Bike" />Science Olympiad<br />
+<input style="margin-bottom:10px;" type="checkbox" name="vehicle" value="Bike" />Robotics<br />
+<input style="" type="checkbox" name="vehicle" value="Bike" />Mu Alpha Theta<br /> </h4>
 </div>  
 
 </td>
@@ -189,6 +196,27 @@
 </td>
 </tr>
 </table>
+<h4 style="width:300px;"> Commitee Choice #1 <br/> *Required for returning members: </h4> 
+<select name='Commitee1'>
+<option value=""></option>
+  <option value="Fundraising Commitee">Fundraising Commitee</option>
+  <option value="Sponsorship Commitee">Sponsorship Commitee</option>
+  <option value="Community Service Commitee">Community Service Commitee</option>
+</select><br/>
+<h4 style="width:300px;"> Commitee Choice #2 <br/>*Required for returning members: </h4> 
+<select name='Commitee2'>
+<option value=""></option>
+  <option value="Fundraising Commitee">Fundraising Commitee</option>
+  <option value="Sponsorship Commitee">Sponsorship Commitee</option>
+  <option value="Community Service Commitee">Community Service Commitee</option>
+</select><br/>
+<h4 style="width:300px;"> Commitee Choice #3 <br/>*Required for returning members: </h4> 
+<select name='Commitee3'>
+<option value=""></option>
+  <option value="Fundraising Commitee">Fundraising Commitee</option>
+  <option value="Sponsorship Commitee">Sponsorship Commitee</option>
+  <option value="Community Service Commitee">Community Service Commitee</option>
+</select><br/>
 </div>
 
 </td>
